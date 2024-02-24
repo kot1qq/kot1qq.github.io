@@ -1,0 +1,3 @@
+function menu(){if(document.getElementById("menu").style.display === "block"){document.getElementById("bg").style.display = "none"; document.getElementById("menu").style.display = "none"} else {document.getElementById("bg").style.display = "block"; document.getElementById("menu").style.display = 'block'}};
+/* ДЛЯ ЕБЛАНОВ КОТОРЫЕ СМОТРЯТ КОД:
+Мне было лень делать 'let menu = document.get...', потому что оно блять не работало */ 
