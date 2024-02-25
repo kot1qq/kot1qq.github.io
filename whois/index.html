@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>sx</title>
+    <script>
+      function ip(){
+  var ip = document.getElementById("inp").value;
+  var res = fetch('https://ipinfo.io/' + ip + '?token=bb4fb54d5709a0');
+  var output = res.json();
+  if(output){alert('good')} else {alert("Введи IP корректно"); location.reload()}
+     }
+    </script>
+  </head>
+  <body>
+    <input id="inp">
+    <a onclick="ip()">click</a>
+  </body>
+</html>
