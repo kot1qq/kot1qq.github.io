@@ -1,3 +1,0 @@
-function getDevice(){let screenWidth = window.innerWidth; let screenHeight = window.innerHeight; if(screenWidth > 999){return "pc";} else if(screenWidth < 650){return "mobile"}}; function refresh(){location.reload()}; window.onresize = refresh;
-
-let dev = getDevice(); function opt(){if(dev === "pc"){document.getElementById("bgimg").style.width = "100%"} else {document.getElementById("bgimg").style.width = "1000px"}}
