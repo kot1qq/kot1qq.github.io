@@ -1,0 +1,50 @@
+#c{
+ justify-content: center;
+ text-align: center;
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+body {
+ background-color: black;
+ animation: bg 2s;
+ color: white;
+ font-size: 2vh;
+ font-family: Arial, Roboto, Sans-serif;
+}
+@keyframes bg {
+ from {
+  opacity: 0;
+ }
+ to {
+  opacity: 100;
+ }
+}
+hr {
+ border: none;
+ background-color: transparent;
+}
+button {
+ font-size: 3vh;
+ color: white;
+ background-color: red;
+ padding: 15px;
+ border: none;
+ border-radius: 10px;
+}
+input {
+ background-color: lightgray;
+ width: 250px;
+ height: 45px;
+ color: black;
+ border-radius: 5px;
+ border: 1.5px solid #3b3b3b;
+}
+::placeholder {
+ color: black;
+}
+footer {
+ opacity: 40%;
+ font-size: 1.5vh;
+}
